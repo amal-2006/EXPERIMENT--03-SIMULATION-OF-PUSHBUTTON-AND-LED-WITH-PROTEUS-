@@ -153,7 +153,7 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pin = GPIO_PIN_13;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
-  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
 
   GPIO_InitStruct.Pin = GPIO_PIN_5;
@@ -179,15 +179,18 @@ void assert_failed(uint8_t *file, uint32_t line)
 #endif
 ```
 ## Output screen shots of proteus  :
+### LED OFF
+![LED OFF](https://github.com/amal-2006/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/148410730/fa43f338-4c6c-4c4c-9cb6-4895e5aee4ad)
+
+## LED ON
+![LED ON](https://github.com/amal-2006/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/148410730/8290b055-9846-4533-aadd-382ec95f29d9)
 
 
 
 
 ## Proteus layout(Add pdf screen shot of circuit here)
- 
- 
- 
- 
+![Layout Diagram](https://github.com/amal-2006/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/148410730/7bd25fc2-4226-4d08-861e-9f6e43bd7e50)
+  
 ## Result :
 Interfacing a digital output and digital input  with ARM microcontroller are simulated in proteus and the results are verified.
 
