@@ -24,41 +24,37 @@ interfaces Datasheet - production data Features
 
  2. Click on FILE, click on new stm 32 project 
  
-3. Select the target to be programmed and click on next 
+ 3. Select the target to be programmed and click on next 
 
 
-4.select the program name 
+ 4.select the program name 
 
 
-5. corresponding ioc file will be generated automatically 
+ 5. corresponding ioc file will be generated automatically 
 
-6.select the appropriate pins as gipo, in or out, USART or required options and configure 
-
-
-7.click on cntrl+S , automaticall C program will be generated 
-
-8. edit the program and as per required 
-
-9. use project and build  
-
-10. once the project is bulild 
-
-11. click on debug option 
+ 6.select the appropriate pins as gipo, in or out, USART or required options and configure 
 
 
-12.  Creating Proteus project and running the simulation
-We are now at the last part of step by step guide on how to simulate STM32 project in Proteus.
+ 7.click on cntrl+S , automaticall C program will be generated 
 
-13. Create a new Proteus project and place STM32F40xx i.e. the same MCU for which the project was created in STM32Cube IDE. 
+ 8. edit the program and as per required 
+
+ 9. use project and build  
+
+ 10. once the project is bulild 
+
+ 11. click on debug option 
 
 
-14. After creation of the circuit as per requirement as shown below 
+ 12.  Creating Proteus project and running the simulation
+ We are now at the last part of step by step guide on how to simulate STM32 project in Proteus.
 
-![image](https://user-images.githubusercontent.com/36288975/233856847-32bea88a-565f-4e01-9c7e-4f7ed546ddf6.png)
+ 13. Create a new Proteus project and place STM32F40xx i.e. the same MCU for which the project was created in STM32Cube IDE. 
 
-14. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
 
-15. click on debug and simulate using simulation.
+ 14. After creation of the circuit as per requirement. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
+
+ 15. click on debug and simulate using simulation.
 
 
 ## STM 32 CUBE PROGRAM :
