@@ -20,19 +20,20 @@ interfaces Datasheet - production data Features
  
 
 ## Procedure:
+```
  1. Click on STM 32 CUBE IDE
 
  2. Click on FILE, click on new stm 32 project 
  
  3. Select the target to be programmed and click on next 
 
-  4.select the program name 
+ 4.select the program name 
 
  5. corresponding ioc file will be generated automatically 
 
-  6.select the appropriate pins as gipo, in or out, USART or required options and configure.
+ 6.select the appropriate pins as gipo, in or out, USART or required options and configure.
 
-  7.click on cntrl+S , automaticall C program will be generated 
+ 7.click on cntrl+S , automaticall C program will be generated 
 
  8. edit the program and as per required 
 
@@ -52,7 +53,7 @@ interfaces Datasheet - production data Features
  14. After creation of the circuit as per requirement. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
 
  15. click on debug and simulate using simulation.
-
+```
 
 ## STM 32 CUBE PROGRAM :
 ```
