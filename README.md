@@ -21,30 +21,30 @@ interfaces Datasheet - production data Features
 
 ## Procedure:
 
- 1. Click on STM 32 CUBE IDE
+ 1. Click on STM 32 CUBE IDE.
 
- 2. Click on FILE, click on new stm 32 project 
+ 2. Click on FILE, click on new stm 32 project.
  
- 3. Select the target to be programmed and click on next 
+ 3. Select the target to be programmed and click on next. 
 
- 4. Select the program name 
+ 4. Select the program name.
 
- 5. Corresponding ioc file will be generated automatically 
+ 5. Corresponding ioc file will be generated automatically. 
 
  6. Select the appropriate pins as gipo, in or out, USART or required options and configure.
 
- 7. Click on cntrl+S , automaticall C program will be generated 
+ 7. Click on cntrl+S , automaticall C program will be generated. 
 
- 8. Edit the program and as per required 
+ 8. Edit the program and as per required. 
 
- 9. Use project and build  
+ 9. Use project and build.  
 
- 10. Once the project is bulild 
+ 10. Once the project is bulild. 
 
- 11. Click on debug option 
+ 11. Click on debug option. 
 
 
- 12. Creating Proteus project and running the simulation
+ 12. Creating Proteus project and running the simulation.
  We are now at the last part of step by step guide on how to simulate STM32 project in Proteus.
 
  13. Create a new Proteus project and place STM32F40xx i.e. the same MCU for which the project was created in STM32Cube IDE. 
