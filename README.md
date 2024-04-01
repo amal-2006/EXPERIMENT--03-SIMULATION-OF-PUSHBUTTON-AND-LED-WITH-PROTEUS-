@@ -26,14 +26,11 @@ interfaces Datasheet - production data Features
  
  3. Select the target to be programmed and click on next 
 
-
  4.select the program name 
-
 
  5. corresponding ioc file will be generated automatically 
 
- 6.select the appropriate pins as gipo, in or out, USART or required options and configure 
-
+ 6.select the appropriate pins as gipo, in or out, USART or required options and configure.
 
  7.click on cntrl+S , automaticall C program will be generated 
 
